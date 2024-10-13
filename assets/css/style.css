@@ -11,6 +11,8 @@ ul li{ list-style-type: none; }
 
 .header_info a:hover{ text-decoration: underline !important; }
 
+/* .navbar-notification{ position: absolute; top: -5px; right: ; } */
+
 #banner::before{ content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); z-index: 1; }
 #banner img{ height: 100vh; } 
 .bnr_info{ z-index: 1000; }
@@ -35,3 +37,66 @@ main h2 span{ font-size: 45px; font-weight: 600; }
 .footer_top .contact-details ul li a:hover{ text-decoration: underline; }
 .footer_top h2{ font-size: 20px; }
 .footer_top h2 span{ font-size: 45px; font-weight: 600; }
+
+/* NONE HOME */
+.appointment_form label{ font-size: 12px !important; }
+.appointment_form label span, .appointment_form p span { color: red !important; }
+
+/* LOGIN */
+.login_card{ min-width: 450px !important; }
+
+/* SIDEBAR */
+.sidebar .sub-title{ font-size: 15px !important; font-weight: 400 !important; border-top: 1px solid #fff; margin-top: 5px; padding: 5px 0 0 0; }
+
+/* SELECT SEARCH */
+.searchBoxElement{
+    background-color: white;
+    border: 1px solid #aaa;
+    position: absolute;
+    max-height: 114px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    top: 88px;
+    left: 20px;
+    width: 92% !important;
+    margin: 0;
+    padding: 0;
+    line-height: 23px;
+    list-style: none;
+    z-index: 1;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .searchBoxElement span{
+    padding: 0 5px;
+  }
+  
+  .searchBoxElement::-webkit-scrollbar {
+    display:none;
+  }
+  
+  .searchBoxElement li{
+    background-color: white;
+    color: black;
+  }
+  
+  .searchBoxElement li:hover{
+    background-color: #50a0ff;
+    color: white;
+  }
+  
+  .searchBoxElement li.selected{
+    background-color: #50a0ff;
+    color: white;
+  }
+  
+  .refineText {
+    padding: .375rem 2.25rem .375rem .75rem !important;
+    display: block;
+    width: 100% !important;
+    margin: 10px 0;
+    color: #212529;
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem;
+    }
